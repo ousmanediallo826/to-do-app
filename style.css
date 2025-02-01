@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Macondo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Parkinsans:wght@300..800&family=Playwrite+AU+SA+Guides&family=Playwrite+ES+Deco+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+:root {
+    --primary-color: #FFDE00;
+    --primary-light-color: #FFE769;
+    --secondary-color: #FFE4BA;
+    --secondary-light-color: #FFF6E8;
+    --post-color: #62EEA8;
+    --delete-color: #FF9F9F;
+    --light-color: #FFFEFC;
+    --grey-color: #747E79;
+    --dark-color: #000000;
+
+    --primary-font: 'Cabin', sans-serif;
+    --seconday-font: 'Calistoga', sans-serif;
+    
+    --border-width: 3px;
+    --element-border-radius: 5px;
+    
+    --button-height: 5px;
+    
+    --small-button-height: 2px;
+    
+    --element-padding: 0.8em;
+    
+    --maximum-width: 320px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  
+}
+body {
+    background-color: var(--secondary-light-color);
+    font-family: "Chakra Petch", serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    gap: 15px;
+    height: 100vh;  /* This ensures the container takes the full height of the viewport */
+  
+}
+h1 {
+    font-size: 60px;
+}
+.provider-btn, .primary-btn, .secondary-btn {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 500px;
+  height: 70px;
+  background-color: var(--light-color);
+  font-size: 24px;
+  font-weight: 900;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 4px 4px #000000;
+
+  
+}
+.provider-btn img {
+    width: 30px;
+}
+.auth-fields-and-buttons {
+    margin-top: 50px;
+}
+.auth-fields-and-buttons input {
+    width: 500px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: 5px solid #000000;
+    padding-left: 10px;
+    font-size: 24px;
+    
+}
+.auth-fields-and-buttons ::placeholder {
+    text-align: center;
+    font-size: 24px;
+    
+}
+textarea {
+    width: 500px;
+    
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    font-weight: 900;
+    font-size: 24px;
+}
+.secondary-btn {
+    border: 5px solid #000000;
+    font-size: 24px;
+}

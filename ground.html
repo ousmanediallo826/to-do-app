@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground Page</title>
+    <link rel="stylesheet" href="ground.css">
+</head>
+<body>
+    <section class="content-input-field">
+        <div>
+            <input  type="text" placeholder="add a task" id="input-el"> <br> <br>
+            <textarea name="text-area" id="textarea-el" placeholder="description"></textarea>
+            <div class="date">
+                <label for="date" class="date">Deadline:</label><input id="date-el"  class="date" type="date"> <br>
+            </div>           
+              <div class="priorities">
+                <input id="low-el" name="priorities" type="radio"> <label for="low">Low</label>
+                <input id="medium-el"name="priorities"type="radio"> <label for="Meium">Medium</label>
+                <input id="high-el"name="priorities"type="radio"> <label for="High">High</label>
+             </div>
+        </div>
+        <div>
+            <button id="add-a-task-el" class="add-a-task">Add Task</button>
+        </div>
+    </section>
+    <section>
+        <div class="display-content" >
+            <ul class="ul-list" id="display-content-el">
+               
+               
+               
+            </ul>
+
+        </div>
+    </section>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
