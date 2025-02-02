@@ -118,3 +118,20 @@ input:focus, textarea:focus {
     border-radius: 20px;
     box-shadow: 4px 4px 3px #000000;
 }
+
+.icons {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: end;
+    margin-right: 100px;
+}
+.list-icons {
+   font-size: 40px;
+   cursor: pointer;
+
+}
+.icon-1 .fa-user:hover {
+    background-color: #FFDE00;
+    transition: 0.5s all ease-in-out;
+}

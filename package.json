@@ -1,0 +1,26 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ousmanediallo826/to-do-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ousmanediallo826/to-do-app/issues"
+  },
+  "homepage": "https://github.com/ousmanediallo826/to-do-app#readme",
+  "description": "",
+  "dependencies": {
+    "firebase": "^11.2.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

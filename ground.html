@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playground Page</title>
     <link rel="stylesheet" href="ground.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="content-input-field">
+    <section >
+        <ul class="icons">
+            <li class="list-icons icon-1"><i class="fa-solid fa-user" ></i></li>
+            <li class="list-icons icon-2"><i class="fa-solid fa-right-from-bracket" id="signout-el"></i></li>
+        </ul>
+        <div class="content-input-field">
         <div>
             <input  type="text" placeholder="add a task" id="input-el"> <br> <br>
             <textarea name="text-area" id="textarea-el" placeholder="description"></textarea>
@@ -23,6 +29,7 @@
         <div>
             <button id="add-a-task-el" class="add-a-task">Add Task</button>
         </div>
+    </div>
     </section>
     <section>
         <div class="display-content" >
@@ -36,6 +43,6 @@
     </section>
 
 
-    <script src="/script.js"></script>
+    <script type="module" src="/ground.js"></script>
 </body>
 </html>
