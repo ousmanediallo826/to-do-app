@@ -7,13 +7,13 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, on
 // 
 
 const firebaseConfig = {
-  
-  
-  
-  
-  
-  
-  
+   
+   
+   
+   
+   
+   
+   
 };
 
 // Initialize Firebase
